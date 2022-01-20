@@ -1,0 +1,31 @@
+body {
+margin-left: 500px;
+}
+
+#firstScreen {
+    width: 300px;
+    height: auto;
+    background-color: red;
+    background-image: linear-gradient(red, yellow);
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+#SecondScreen {
+    width: 150px;
+    height: auto;
+    background-color: rgb(68, 0, 255);
+    background-image: linear-gradient(rgb(0, 174, 255), rgb(0, 38, 255));
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20pt;
+    font-size: 60px;
+    font-style: italic;
+    transition: 3s;
+}
+
+#SecondScreen:hover{
+ width: 300px;
+}
